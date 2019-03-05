@@ -1,0 +1,77 @@
+States of 2 Banks
+
+BankofA (2 customer(s))
+Customer with Cash Card(Bank ID: A, Account #: 100, Expiration Date: 09/09/2022, Password: 0000)
+Customer with Cash Card(Bank ID: A, Account #: 101, Expiration Date: 01/01/2010, Password: 0001)
+
+BankofB (2 customer(s))
+Customer with Cash Card(Bank ID: B, Account #: 200, Expiration Date: 09/09/2022, Password: 0002)
+Customer with Cash Card(Bank ID: B, Account #: 201, Expiration Date: 04/12/2010, Password: 0003)
+
+
+States of 4 ATMs
+
+ATM1_A: (ATM1 from BankofA)
+	The maximum amount of cash a card can widthraw per transaction: $1000
+
+ATM2_A: (ATM2 from BankofA)
+	The maximum amount of cash a card can widthraw per transaction: $2000
+
+ATM1_B: (ATM1 from BankofB)
+	The maximum amount of cash a card can widthraw per transaction: $3000
+
+ATM2_B: (ATM2 from BankofB)
+	The maximum amount of cash a card can widthraw per transaction: $4000
+
+----------------------------------------------------------------------------------------
+
+Enter your choice of ATM:
+atmasdf
+ATM does not exist!
+
+Enter your choice of ATM:
+atm1-a
+
+ATM1_A: (ATM1 from BankofA)
+	The maximum amount of cash a card can widthraw per transaction: $1000
+
+Enter your card:
+sldjf
+Invalid Input!
+
+Enter your card:
+a220
+This card is not supported by this ATM.
+
+Enter your card:
+a9000
+This card is not supported by this ATM.
+
+Enter your card:
+b123
+This card is not supported by this ATM.
+
+Enter your card:
+a100
+The card is accepted. Please enter your password.
+23242
+This is a wrong password. Enter your password.
+sdfj
+This is a wrong password. Enter your password.
+0000
+Authorization is accepted. Start your transaction by entering the amount to withdraw.
+5000
+This amount exceeds the maximum amount you can withdraw per transaction. Please enter the amount or quit.
+600
+The amount exceeds the current balance. Enter another amount or quit.
+300
+$300 is withdrawn from  your account. The remaining balance of this account is $200.
+If you have more transactions, enter the amount or quit.
+20
+$20 is withdrawn from  your account. The remaining balance of this account is $180.
+If you have more transactions, enter the amount or quit.
+10
+$10 is withdrawn from  your account. The remaining balance of this account is $170.
+If you have more transactions, enter the amount or quit.
+quit
+Thank you for choosing us. Have a great day!

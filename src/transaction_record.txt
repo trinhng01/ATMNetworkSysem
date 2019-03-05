@@ -1,0 +1,5 @@
+03/04/2019
+BankofA - Account #: 100 - Balance: $500
+Withdraw $10
+Withdraw $20
+Current balance: $470
